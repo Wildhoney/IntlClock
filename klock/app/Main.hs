@@ -1,6 +1,7 @@
 module Main where
 
-import Time (withOffset)
+import Prelude (IO, (.), (>>=), putStrLn, show)
+import Time    (withOffset)
 
 main :: IO ()
 main = withOffset 60 >>= putStrLn . show

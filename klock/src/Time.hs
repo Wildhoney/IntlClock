@@ -1,5 +1,6 @@
 module Time (withOffset) where
 
+import Prelude             (IO, (*))
 import Data.Time.Clock     (UTCTime, NominalDiffTime, addUTCTime, getCurrentTime)
 import Control.Applicative ((<$>))
 
